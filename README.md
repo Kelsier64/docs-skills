@@ -45,6 +45,9 @@ Use when:
 Expected output:
 - A summary of architecture highlights and task-relevant knowledge
 
+Recommended usage:
+You can add this tool to session start hook.
+
 ## Suggested Workflow
 
 1. Run `docs-context-bootstrap` to load project context.

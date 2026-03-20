@@ -1,6 +1,6 @@
 ---
 name: docs-init-from-empty
-description: 'Initialize comprehensive documentation files when project docs are missing. Use when docs/ does not exist or when docs/architecture.md, docs/designs/*.md, and docs/knowledge/*.md are all absent.'
+description: 'Use when project docs are missing, specifically when the docs/ directory does not exist or when docs/architecture.md, docs/designs/*.md, and docs/knowledge/*.md are all absent.'
 argument-hint: 'Optional: feature or domain keywords to seed initial doc structure'
 ---
 

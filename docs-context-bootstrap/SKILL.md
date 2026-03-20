@@ -1,6 +1,6 @@
 ---
 name: docs-context-bootstrap
-description: 'Load architecture, tech design, and knowledge docs as startup context. If docs files are missing, invoke docs-init-from-empty first, then continue reading docs/architecture.md, docs/designs/*.md, and docs/knowledge/*.md.'
+description: 'Use when starting a new conversation or task that requires project context from existing architecture, tech design, and knowledge documentation.'
 argument-hint: 'Optional: focus area keywords to prioritize while reading docs context'
 ---
 
@@ -15,7 +15,8 @@ Load project context from architecture, tech design, and knowledge docs at the s
 	- docs/architecture.md exists and is non-empty
 	- docs/designs/ has at least one non-empty .md file
 	- docs/knowledge/ has at least one non-empty .md file
-2. If any baseline check fails, invoke **docs-init-from-empty** skill first.
+2. If any baseline check fails:
+   **REQUIRED SUB-SKILL:** Use docs-init-from-empty first.
 3. Read docs/architecture.md if it exists.
 4. Read task related files in docs/designs/*.md if they exist.
 5. Read task related files in docs/knowledge/*.md if they exist.

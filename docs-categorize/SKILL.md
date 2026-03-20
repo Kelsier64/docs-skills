@@ -1,6 +1,6 @@
 ---
 name: docs-categorize
-description: 'Classify research findings and project updates into detailed and complete docs, including auto-writing and auto-updating tech design docs. Use it after completing major project updates, drafting implementation plans, consolidating web research, summarizing discoveries, or recording user-provided facts.'
+description: 'Use when completing major project updates, drafting implementation plans, consolidating web research, summarizing discoveries, or recording user-provided facts that need to be categorized into documentation.'
 argument-hint: 'Describe the research/update content and expected classification output'
 ---
 
